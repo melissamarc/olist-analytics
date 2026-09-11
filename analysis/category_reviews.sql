@@ -1,3 +1,5 @@
+-- 2. Quais categorias têm mais avaliações negativas
+--  e por quê (atraso, produto diferente do anunciado, etc.)?
 WITH reviews_categorizados AS (
     SELECT 
         o.order_id,
